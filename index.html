@@ -17,15 +17,27 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
+        class="header__nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.header-hero.partial.html"
+      ></section>
     </header>
     <main>
-      <section></section>
+      <!-- Yura Petrov -->
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.carousel-products.partial.html"
+      ></section>
+      <!-- Ivan Sydorov -->
       <section></section>
       <section></section>
       <section></section>
